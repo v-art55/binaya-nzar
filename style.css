@@ -306,6 +306,7 @@ display: inline-block;
   .up {
     flex-direction: column-reverse;
     height: 80%;
+    margin-top:20px;
   }
 
   .right {
