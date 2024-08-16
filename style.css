@@ -11,7 +11,7 @@ body {
 }
 nav {
     margin: 15px 50px;
-    
+    color:#00000;
     font-weight: 500;
     font-size: 1.5em;
     display: flex;
@@ -305,8 +305,9 @@ display: inline-block;
 
 
 @media only screen and (max-width: 600px) {
-  .nav {
-    margin: 15px 20px;
+  nav {
+    
+	  margin: 15px 20px;
   }
   .up {
     flex-direction: column-reverse;
@@ -346,7 +347,7 @@ display: inline-block;
     background: #ffffff;
   }
   .footer{
-    /* display: none; */
+    display: none; 
     padding-top: 170px;
     margin-top: 20px;
   }
@@ -371,6 +372,6 @@ background: linear-gradient(131deg, rgba(226,61,27,1) 11%, rgba(97,79,207,1) 80%
   body {
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    gap: 10px;
   }
 }
