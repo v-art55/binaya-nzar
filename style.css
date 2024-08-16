@@ -210,7 +210,7 @@ li a:hover {
     top: 180%;
     width: 160%;
     height: 190%;
-    background-color: #d53cac;
+    background-color: #dd3636;
     border-radius: 50%;
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -223,13 +223,14 @@ li a:hover {
   
   .button2:hover:before {
     top: -35%;
-    background-color: #d53cac;;
+    background-color: #d53c7e;;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   }
   
   .button2:hover:after {
     top: -45%;
-    background-color: #d53cac;;
+    background: rgb(226,61,27);
+background: linear-gradient(131deg, rgba(226,61,27,1) 11%, rgba(97,79,207,1) 80%);
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   }
 .btns {
@@ -349,7 +350,15 @@ display: inline-block;
     padding-top: 170px;
     margin-top: 20px;
   }
-  
+  .button1 {
+    background: #3ae188;
+    color: white;
+  }
+  .button2 {
+    color: white;
+    background: rgb(226,61,27);
+background: linear-gradient(131deg, rgba(226,61,27,1) 11%, rgba(97,79,207,1) 80%);
+  }
   .grid-child {
     border: none;
     background: #000;
