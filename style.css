@@ -321,6 +321,7 @@ display: inline-block;
   .image {
     display: grid;
     justify-items: center;
+	  padding-top:20px;
   }
 
   .left {
@@ -373,6 +374,6 @@ background: linear-gradient(131deg, rgba(226,61,27,1) 11%, rgba(97,79,207,1) 80%
   body {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 70px;
   }
 }
