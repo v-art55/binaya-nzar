@@ -24,6 +24,7 @@ nav {
     justify-content: space-around;
 }
 li a{
+	visibility:hidden;
     text-decoration: none;
 }
 
