@@ -372,6 +372,6 @@ background: linear-gradient(131deg, rgba(226,61,27,1) 11%, rgba(97,79,207,1) 80%
   body {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 60px;
   }
 }
