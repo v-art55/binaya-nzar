@@ -303,10 +303,9 @@ display: inline-block;
 
 
 @media only screen and (max-width: 600px) {
-
-	.text-box {
-		width:350px;
-	}
+  .nav {
+    margin: 15px 20px;
+  }
   .up {
     flex-direction: column-reverse;
     height: 80%;
@@ -317,7 +316,6 @@ display: inline-block;
   }
   .image {
     display: grid;
-	  padding-top:25px;
     justify-items: center;
   }
 
@@ -335,19 +333,19 @@ display: inline-block;
   .btns {
     margin: 10px 0;
   }
-	button{
-		padding : 12px;
-	}
 
+  .bt{
+    padding: 12px 10px;
+  }
   .down {
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(2, auto);
     height: auto;
     gap: 5px;
     background: #ffffff;
   }
   .footer{
-	  display:none;
-    padding-top: 130px;
+    /* display: none; */
+    padding-top: 170px;
     margin-top: 20px;
   }
   
@@ -356,5 +354,8 @@ display: inline-block;
     background: #000;
     margin: 0;
 
+  }
+  .text-box {
+    width: 330px;
   }
 }
