@@ -83,10 +83,11 @@ li a:hover {
 .p-image {
     width: 300px;
     height: auto;
-    border: 20px solid rgb(0, 0, 0);
-    background: #5e82474a;
-    filter: drop-shadow(20px 20px 20px black );
+   
+    background: #4991e83d;
+    
     /* padding-top: 90px; */
+    box-shadow: inset -2px 0px 14px 0px black
     
 
 }
@@ -357,5 +358,10 @@ display: inline-block;
   }
   .text-box {
     width: 330px;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
   }
 }
