@@ -310,7 +310,6 @@ display: inline-block;
   .up {
     flex-direction: column-reverse;
     height: 80%;
-    margin-top:50px;
   }
 
   .right {
@@ -318,6 +317,7 @@ display: inline-block;
   }
   .image {
     display: grid;
+	  padding-top:25px;
     justify-items: center;
   }
 
@@ -335,6 +335,9 @@ display: inline-block;
   .btns {
     margin: 10px 0;
   }
+	button{
+		padding : 12px;
+	}
 
   .down {
     grid-template-columns: repeat(1, auto);
