@@ -6,6 +6,7 @@
 }
 body {
     font-family: "Anek Devanagari", sans-serif;
+    width: 100vw;
     
 }
 nav {
@@ -97,7 +98,7 @@ li a:hover {
     color: #ffffff;
     text-align: center;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: repeat(6, auto); /* 3 columns */
 }
 .grid-child {
     border-left:  solid white;
@@ -298,4 +299,53 @@ display: inline-block;
 }
 .foo {
     text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .up {
+    flex-direction: column-reverse;
+    height: 80%;
+  }
+
+  .right {
+    width: 100%;
+  }
+  .image {
+    display: grid;
+    justify-items: center;
+  }
+
+  .left {
+    width: 100%;
+  }
+  .content {
+    position: static;
+    margin: 30px 15px;
+  }
+
+  .p-image {
+    width: 250px;
+  }
+  .btns {
+    margin: 10px 0;
+  }
+
+  .down {
+    grid-template-columns: repeat(2, auto);
+    height: auto;
+    gap: 5px;
+    background: #ffffff;
+  }
+  .footer{
+    padding-top: 130px;
+    margin-top: 20px;
+  }
+  
+  .grid-child {
+    border: none;
+    background: #000;
+    margin: 0;
+
+  }
 }
